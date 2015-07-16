@@ -1,0 +1,82 @@
+/* 
+    Document   : default2
+    Created on : 17-Jun-2013, 22:52:26
+    Author     : Robert Forde
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#balanceTitle {
+    margin:60px 0 0 80px;
+    text-align: center;
+    width:380px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: relative;
+}
+
+#transferDetails {
+    margin: 10px 0 0 100px;
+    width: 400px;
+    height: 180px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: relative;
+}
+
+#detailD2 {
+    margin-left: 150px;
+    width: 706px;
+    height: 380px;
+    background-color: white;
+    position: relative;
+    border-right: 2px ridge #cccccc;
+    border-left: 2px ridge #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+#loginMessage {
+    margin: 30px 25px 0 25px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#viewReport {
+    margin: 10px 0 0 14px;
+    width: 537px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+#viewReport table {
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+#viewReport th{
+    background-color: #2175BC;
+    color: white;
+    font-weight: bold;
+}
+
+#viewReport td{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#viewReport .td2{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    background-color: cyan;
+}
